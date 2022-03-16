@@ -1,0 +1,117 @@
+/*  Variables */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e0e8ff;
+}
+
+#container {
+  width: 100%;
+  /*  max-width: 1440px; */
+  height: 80vh;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+}
+#container #card {
+  display: grid;
+  grid-template-rows: 28% 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 24%;
+  height: 500px;
+  padding-bottom: 25px;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin: 0px auto;
+}
+#container #card #imagen {
+  width: 100%;
+  height: 190px;
+  border-radius: 20px 20px 0 0;
+  background-image: url("../images/illustration-hero.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#container #card #info {
+  display: grid;
+  grid-template-rows: 5;
+  grid-gap: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#container #card #info h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 30px;
+  color: #1f2f56;
+}
+#container #card #info p {
+  color: #7280a7;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+#container #card #info #precio {
+  display: grid;
+  grid-template-columns: 1fr 40% 50%;
+  align-items: center;
+  align-content: start;
+  padding: 10px;
+  width: 95%;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #f5f7ff;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+#container #card #info #precio p {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  color: #1f2f56;
+}
+#container #card #info #precio p span {
+  color: #7280a7;
+  font-weight: normal;
+}
+#container #card #info #precio a {
+  text-decoration: underline;
+  font-family: "Red Hat Display", sans-serif;
+  color: #3829e0;
+  font-weight: 600;
+  transition: all 300ms;
+}
+#container #card #info #precio a:hover {
+  text-decoration: none;
+  color: #7280a7;
+}
+#container #card #info #botonPagar {
+  cursor: pointer;
+  height: 40px;
+  background-color: #6000e4;
+  color: white;
+  border-radius: 10px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 300ms;
+}
+#container #card #info #botonPagar:active {
+  background: #8a00f4;
+}
+#container #card #info a {
+  text-decoration: none;
+  color: #7280a7;
+  font-weight: 900;
+  transition: all 300ms;
+}
+#container #card #info a:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
